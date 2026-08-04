@@ -453,7 +453,7 @@ final class GameScene: SKScene {
         // House release failsafe: 4s without a dot frees the next ghost.
         if tickCount - lastDotTick > 240 {
             lastDotTick = tickCount
-            releaseNextGhost(force: true)
+            releaseNextGhost()
         }
     }
 
@@ -653,7 +653,7 @@ final class GameScene: SKScene {
         return g.dotLimit
     }
 
-    private func releaseNextGhost(force: Bool) {
+    private func releaseNextGhost() {
         for g in [ghosts[1], ghosts[2], ghosts[3]] where g.state == .inHouse {
             g.state = .exiting
             return
