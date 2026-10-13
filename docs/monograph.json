@@ -1,0 +1,240 @@
+{
+  "name": "Pac-Man",
+  "no": "33",
+  "repo": "vincentlauriat/PacMan",
+  "url": "https://vincentlauriat.github.io/PacMan/",
+  "accent": "#ffef00",
+  "meta": {
+    "title": "Pac-Man for macOS — the 1980 arcade, rebuilt native",
+    "description": "Pac-Man for macOS — a faithful, native recreation of the 1980 arcade classic. Original 224×288 maze, real ghost AI, CRT scanlines, 8-bit sounds. Free, signed & notarized.",
+    "og_image": "https://vincentlauriat.github.io/PacMan/icon.png",
+    "favicon": "icon.png",
+    "head_extra": "<link rel=\"canonical\" href=\"https://vincentlauriat.github.io/PacMan/\">"
+  },
+  "role": {
+    "en": "The 1980 arcade, rebuilt native for macOS",
+    "fr": "L'arcade de 1980, reconstruite en natif pour macOS",
+    "zh": "以原生方式為 macOS 重建的 1980 年街機"
+  },
+  "thesis": {
+    "en": "The 1980 arcade classic, rebuilt as a native macOS app.",
+    "fr": "Le classique d'arcade de 1980, reconstruit en app macOS native.",
+    "zh": "1980 年的街機經典，重建為原生 macOS App。"
+  },
+  "lede": {
+    "en": "The original 28×31 maze · real ghost AI · scatter-chase waves · CRT scanlines · code-generated 8-bit sound.",
+    "fr": "Le labyrinthe d'origine de 28×31 · la vraie IA des fantômes · vagues dispersion-poursuite · lignes de balayage CRT · son 8 bits généré par le code.",
+    "zh": "原版 28×31 迷宮 · 真正的鬼魂 AI · 分散與追擊波段 · CRT 掃描線 · 以程式碼產生的 8 位元音效。"
+  },
+  "actions": [
+    {
+      "primary": true,
+      "href": "https://github.com/vincentlauriat/PacMan/releases/latest",
+      "label": {"en": "Insert coin — download", "fr": "Insérez une pièce — télécharger", "zh": "投幣——下載"}
+    },
+    {
+      "href": "https://github.com/vincentlauriat/PacMan",
+      "label": {"en": "View source on GitHub", "fr": "Voir les sources sur GitHub", "zh": "在 GitHub 上檢視原始碼"}
+    }
+  ],
+  "facts": [
+    {"k": {"en": "Requires", "fr": "Configuration", "zh": "系統需求"}, "v": "macOS 13+"},
+    {"k": {"en": "Distribution", "fr": "Distribution", "zh": "發行"},
+     "v": {"en": "Signed &amp; notarized", "fr": "Signé et notarié", "zh": "已簽章與公證"}},
+    {"k": {"en": "Updates", "fr": "Mises à jour", "zh": "更新"},
+     "v": {"en": "Auto-updates", "fr": "Mises à jour automatiques", "zh": "自動更新"}},
+    {"k": {"en": "Licence", "fr": "Licence", "zh": "授權"},
+     "v": {"en": "Free · open source (MIT)", "fr": "Gratuit · open source (MIT)", "zh": "免費 · 開源（MIT）"}}
+  ],
+  "hero": {
+    "src": "screenshot-game.png",
+    "w": 1344,
+    "h": 1792,
+    "dark": true,
+    "alt": "Pac-Man gameplay: the maze with all four ghosts turned blue after an energizer"
+  },
+  "opener": {
+    "h": {"en": "What you get", "fr": "Ce que vous obtenez", "zh": "你會得到什麼"}
+  },
+  "features": [
+    {
+      "h": {"en": "1980, faithfully", "fr": "1980, fidèlement", "zh": "忠實重現 1980"},
+      "p": {
+        "en": "The original 28×31 maze at 224×288, 240 dots and 4 energizers, the warp tunnel, and the fruit schedule from cherry to key.",
+        "fr": "Le labyrinthe d'origine de 28×31 en 224×288, 240 pac-gommes et 4 super pac-gommes, le tunnel de téléportation, et le calendrier des fruits de la cerise à la clé.",
+        "zh": "原版 28×31 迷宮，解析度 224×288，240 顆豆子與 4 顆能量豆、穿越隧道，以及從櫻桃到鑰匙的水果出場順序。"
+      }
+    },
+    {
+      "h": {"en": "The real ghost AI", "fr": "La vraie IA des fantômes", "zh": "真正的鬼魂 AI"},
+      "p": {
+        "en": "Each ghost picks its own target tile every intersection — including Pinky's famous \"up\" overflow bug, faithfully reproduced.",
+        "fr": "Chaque fantôme choisit sa propre case cible à chaque intersection — y compris le fameux bug de dépassement « vers le haut » de Pinky, fidèlement reproduit.",
+        "zh": "每個鬼魂在每個路口都會選擇自己的目標格——包括 Pinky 著名的「向上」溢位錯誤，也忠實重現。"
+      }
+    },
+    {
+      "h": {"en": "Arcade timing", "fr": "Le rythme de l'arcade", "zh": "街機節奏"},
+      "p": {
+        "en": "Scatter and chase waves per level, frightened mode that shortens as you climb, ghost-house dot counters, Cruise Elroy speed-ups.",
+        "fr": "Vagues de dispersion et de poursuite par niveau, mode effrayé qui raccourcit à mesure que vous progressez, compteurs de pac-gommes de la maison des fantômes, accélérations Cruise Elroy.",
+        "zh": "每關各自的分散與追擊波段、隨關卡提升而縮短的驚嚇模式、鬼屋豆子計數器，以及 Cruise Elroy 加速。"
+      }
+    },
+    {
+      "h": {"en": "8-bit sound", "fr": "Son 8 bits", "zh": "8 位元音效"},
+      "p": {
+        "en": "Every effect is a code-generated square wave: the waka-waka chomp, the siren, the frightened wobble, the death spiral. Press M for silence.",
+        "fr": "Chaque effet est une onde carrée générée par le code : le « waka-waka » de la mastication, la sirène, le tremblement effrayé, la spirale de la mort. Appuyez sur M pour le silence.",
+        "zh": "每個音效都是以程式碼產生的方波：「哇咔哇咔」的咀嚼聲、警笛聲、受驚的顫音、死亡旋轉。按 M 即可靜音。"
+      }
+    },
+    {
+      "h": {"en": "CRT look", "fr": "Look CRT", "zh": "CRT 外觀"},
+      "p": {
+        "en": "Scanlines, arcade palette, hand-made 5×7 bitmap font. Big crisp pixels, zero blur, no bitmap assets — it is all drawn in code.",
+        "fr": "Lignes de balayage, palette d'arcade, police bitmap 5×7 faite main. De gros pixels nets, zéro flou, aucune image bitmap — tout est dessiné en code.",
+        "zh": "掃描線、街機色盤、手工打造的 5×7 點陣字型。大而銳利的像素，完全不模糊，也沒有任何點陣圖素材——全部以程式碼繪製。"
+      }
+    },
+    {
+      "h": {"en": "Native &amp; safe", "fr": "Natif et sûr", "zh": "原生且安全"},
+      "p": {
+        "en": "Swift + SpriteKit. Developer ID signed, Apple-notarized, automatic updates via Sparkle. High score saved between sessions.",
+        "fr": "Swift + SpriteKit. Signé Developer ID, notarié par Apple, mises à jour automatiques via Sparkle. Meilleur score conservé d'une session à l'autre.",
+        "zh": "Swift + SpriteKit。Developer ID 簽章、Apple 公證、透過 Sparkle 自動更新。最高分會在每次遊玩之間保存。"
+      }
+    }
+  ],
+  "chapters": [
+    {
+      "id": "ghosts",
+      "h": {"en": "Meet the four", "fr": "Les quatre fantômes", "zh": "認識這四位"},
+      "blocks": [
+        {
+          "type": "specs",
+          "items": [
+            {
+              "h": "Blinky",
+              "p": {
+                "en": "Shadow. Heads straight for you — and speeds up as the maze empties.",
+                "fr": "L'ombre. Il fonce droit sur vous — et accélère à mesure que le labyrinthe se vide.",
+                "zh": "影子。直直朝你衝來——迷宮越空，他跑得越快。"
+              }
+            },
+            {
+              "h": "Pinky",
+              "p": {
+                "en": "Speedy. Aims four tiles ahead of you — overflow bug included.",
+                "fr": "Le rapide. Il vise quatre cases devant vous — bug de dépassement compris.",
+                "zh": "飛快。瞄準你前方四格——溢位錯誤也照樣保留。"
+              }
+            },
+            {
+              "h": "Inky",
+              "p": {
+                "en": "Bashful. Mirrors Blinky through you. Nobody predicts Inky.",
+                "fr": "Le timide. Il reflète Blinky à travers vous. Personne ne prévoit Inky.",
+                "zh": "害羞。以你為中心鏡射 Blinky 的位置。沒有人猜得到 Inky。"
+              }
+            },
+            {
+              "h": "Clyde",
+              "p": {
+                "en": "Pokey. Charges until he gets close, then runs for his corner.",
+                "fr": "Le lent. Il charge jusqu'à s'approcher, puis file vers son coin.",
+                "zh": "慢吞吞。一路衝到靠近你，然後掉頭逃回自己的角落。"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gameplay",
+      "h": {"en": "Actual gameplay", "fr": "En jeu", "zh": "實際遊戲畫面"},
+      "blocks": [
+        {
+          "type": "plates",
+          "items": [
+            {
+              "src": "screenshot-title.png",
+              "w": 1344,
+              "h": 1792,
+              "dark": true,
+              "alt": "Pac-Man title screen listing the four ghosts"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "score",
+      "h": {"en": "Score advance table", "fr": "Table des scores", "zh": "得分表"},
+      "blocks": [
+        {
+          "type": "table",
+          "head": [
+            {"en": "Target", "fr": "Cible", "zh": "目標"},
+            {"en": "Points", "fr": "Points", "zh": "分數"}
+          ],
+          "rows": [
+            [{"en": "Dot", "fr": "Pac-gomme", "zh": "豆子"}, "10"],
+            [{"en": "Energizer", "fr": "Super pac-gomme", "zh": "能量豆"}, "50"],
+            [{"en": "Cherry", "fr": "Cerise", "zh": "櫻桃"}, "100"],
+            [{"en": "Strawberry", "fr": "Fraise", "zh": "草莓"}, "300"],
+            [{"en": "Ghost chain", "fr": "Fantômes en chaîne", "zh": "連續吃鬼"}, "200 · 400 · 800 · 1600"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "controls",
+      "h": {"en": "Controls", "fr": "Commandes", "zh": "操作方式"},
+      "blocks": [
+        {
+          "type": "table",
+          "head": [
+            {"en": "Key", "fr": "Touche", "zh": "按鍵"},
+            {"en": "Action", "fr": "Action", "zh": "動作"}
+          ],
+          "rows": [
+            [{"en": "← ↑ ↓ → or W A S D", "fr": "← ↑ ↓ → ou W A S D", "zh": "← ↑ ↓ → 或 W A S D"}, {"en": "Steer", "fr": "Diriger", "zh": "轉向"}],
+            [{"en": "Space", "fr": "Espace", "zh": "空白鍵"}, {"en": "Start", "fr": "Commencer", "zh": "開始"}],
+            ["P", {"en": "Pause", "fr": "Pause", "zh": "暫停"}],
+            ["M", {"en": "Mute", "fr": "Couper le son", "zh": "靜音"}]
+          ]
+        }
+      ]
+    }
+  ],
+  "close": {
+    "h": {"en": "Insert coin", "fr": "Insérez une pièce", "zh": "投幣"},
+    "p": {
+      "en": "Free · open source · signed &amp; notarized · macOS 13+ · auto-updates",
+      "fr": "Gratuit · open source · signé et notarié · macOS 13+ · mises à jour automatiques",
+      "zh": "免費 · 開源 · 已簽章與公證 · macOS 13+ · 自動更新"
+    },
+    "actions": [
+      {
+        "primary": true,
+        "href": "https://github.com/vincentlauriat/PacMan/releases/latest",
+        "label": {"en": "Insert coin — download", "fr": "Insérez une pièce — télécharger", "zh": "投幣——下載"}
+      },
+      {
+        "href": "https://github.com/vincentlauriat/PacMan",
+        "label": {"en": "View source on GitHub", "fr": "Voir les sources sur GitHub", "zh": "在 GitHub 上檢視原始碼"}
+      }
+    ]
+  },
+  "colophon": {
+    "notes": [
+      {
+        "en": "“Pac-Man” is a trademark of Bandai Namco Entertainment Inc. This is an unofficial fan tribute, built from scratch for fun and nostalgia.",
+        "fr": "« Pac-Man » est une marque de Bandai Namco Entertainment Inc. Ceci est un hommage de fan non officiel, construit de zéro pour le plaisir et la nostalgie.",
+        "zh": "「Pac-Man」是 Bandai Namco Entertainment Inc. 的商標。本作為非官方的粉絲致敬作品，從零打造，純為樂趣與懷舊而製作。"
+      },
+      "<a href=\"https://lauriat.fr\">lauriat.fr</a>"
+    ]
+  }
+}
